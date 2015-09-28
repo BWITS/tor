@@ -11,7 +11,7 @@ RUN apk --update add alpine-sdk libevent-dev python openssl-dev && \
     ./configure --with-openssl-dir=/usr/bin CFLAGS="-U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2" && \
     make && \
     make install && \
-    apk del alpine-sdk libevent-dev python openssl-dev && \
+    apk del alpine-sdk python && \
     rm -rf /var/cache/apk/* /tmp/${TORNAME}
 
 EXPOSE 9150
