@@ -1,4 +1,5 @@
 # Dockerfile for tor client - Alpine Linux
+[![](https://badge.imagelayers.io/bwits/tor:latest.svg)](https://imagelayers.io/?images=bwits/tor:latest 'Get your own badge on imagelayers.io')
 
 ### To run
 
