@@ -2,9 +2,6 @@ FROM alpine:3.2
 
 MAINTAINER Bill W < ozbillwang@gmail.com>
 
-ENV REFRESHED_AT 20150928
-ENV TORNAME tor-0.2.6.10
-
 RUN apk --update add tor --update-cache  \
         --repository http://dl-4.alpinelinux.org/alpine/edge/testing/ \
         --allow-untrusted && \
